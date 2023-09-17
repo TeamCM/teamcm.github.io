@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(0,223,0);
+    font-family: sans-serif;
+}
+html,body{
+    background-color: rgb(5,5,5);
+}
+#logo{
+    width: 4vw;
+}
+#logoname{
+    display: flex;
+    align-items: center;
+}
+#discord-invite > img{
+    width: 2vw;
+}
+#contact-us, #github, #github > *{
+    color: rgb(0,160,0);
+}
+#contact-us{
+    display: flex;
+}
+#logoname > *{
+    font-family: monospace !important;
+    font-size: 33px;
+}
+button{
+    background-color: rgb(5,5,5);
+    border: 1px solid rgb(0,20,0);
+    border-radius: 0.5em;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+button:hover, button.active{
+    cursor: pointer;
+    background-color: rgb(20,20,20);
+    border-color: rgb(0,30,0);
+}
+.hidden{
+    display: none;
+}
+#pages{
+    border: 1px solid rgb(0,80,0);
+    margin: 6px;
+    min-height: 60vh;
+}
+.project, .member{
+    margin: 4px;
+}
+.project > span, .member > span{
+    color: rgb(0,120,0);
+    font-size: 14px;
+}
+.member-avatar{
+    border: 0px;
+    border-radius: 100%;
+}
+.member{
+    display: flex;
+}
+.member > img{
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+}
+.member-info > span{
+    color: rgb(0,120,0);
+}
+
+#warning{
+    border: 1px solid;
+    border-radius: 0.5em;
+    background-color: rgba(255,255,0,0.4);
+    color: rgb(255,120,0);
+    padding: 20px;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+}
