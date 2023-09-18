@@ -14,11 +14,15 @@ html,body{
     display: flex;
     align-items: center;
 }
-#discord-invite > img{
+.discord-invite > img{
     width: 2vw;
+}
+.github-small > img{
+    width: 1vw;
 }
 #contact-us, #github, #github > *{
     color: rgb(0,160,0);
+    margin-left: 5px;
 }
 #contact-us{
     display: flex;
@@ -56,29 +60,29 @@ button:hover, button.active{
     color: rgb(0,120,0);
     font-size: 14px;
 }
+#members{
+    overflow-y: scroll;
+}
 .member-avatar{
     border: 0px;
     border-radius: 100%;
 }
 .member{
     display: flex;
+    margin-bottom: 8px;
 }
 .member > img{
     width: 100px;
     height: 100px;
-    margin-right: 5px;
+    margin-right: 8px;
+    border: 2px solid rgb(0,80,0);
 }
 .member-info > span{
     color: rgb(0,120,0);
 }
-
-#warning{
-    border: 1px solid;
-    border-radius: 0.5em;
-    background-color: rgba(255,255,0,0.4);
-    color: rgb(255,120,0);
-    padding: 20px;
-    font-family: monospace;
-    font-size: 20px;
-    text-align: center;
+.member-name-contact{
+    display: flex;
+}
+#page-selection{
+    margin-left: 5px;
 }
