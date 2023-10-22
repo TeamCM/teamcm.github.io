@@ -7,18 +7,19 @@
 html,body{
     background-color: rgb(5,5,5);
 }
-#logo{
-    width: 4vw;
+.logo{
+    /*max-width: 4vw;*/
+    max-height: 4vh;
 }
 #logoname{
     display: flex;
     align-items: center;
 }
 .discord-invite > img{
-    width: 2vw;
+    height: 1.8vh;
 }
 .github-small > img{
-    width: 1vw;
+    height: 1.2vh;
 }
 #contact-us, #github, #github > *{
     color: rgb(0,160,0);
